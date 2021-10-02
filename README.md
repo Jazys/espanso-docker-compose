@@ -25,6 +25,12 @@ espanso install docker-compose
 espanso restart
 ```
 
+Or with external link :
+
+```sh
+espanso install -e docker-compose https://github.com/Jazys/espanso-docker-compose
+```
+
 ### List of available command
 
 | Shortcut | Command

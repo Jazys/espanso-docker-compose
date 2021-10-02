@@ -19,7 +19,7 @@ matches:
   - trigger: ":dlogs"
     replace: "docker-compose logs"
     
-   - trigger: ":dlogsf"
+  - trigger: ":dlogsf"
     replace: "docker-compose logs -f"
 
   - trigger: ":dexec"
