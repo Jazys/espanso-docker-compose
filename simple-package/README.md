@@ -1,9 +1,10 @@
 ---
-package_name: "simple-package"
-package_title: "Simple Package"
-package_desc: "A simple package to say Hello World."
-package_version: "0.1.0"
-package_author: "Federico Terzi"
-package_repo: "https://github.com/federico-terzi/espanso-package-example"
+package_name: "docker-compose"
+package_title: "docker-compose"
+package_desc: "Docker compose command"
+package_version: "1.0.0"
+package_author: "Jazys"
+package_repo: "https://github.com/Jazys/espanso-docker-compose"
 ---
-A simple package to say "Hello World"
+
+Espanso package containing docker-compose command.
