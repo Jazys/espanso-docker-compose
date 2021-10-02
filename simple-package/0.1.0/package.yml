@@ -1,8 +1,29 @@
-# Simple package
+# Docker compose Package
 
-name: simple-package 
+name: docker-compose
 parent: default
 
 matches:
-  - trigger: ":hw"
-    replace: "hello world"
+  - trigger: ":dbuild"
+    replace: "docker-compose build"
+    
+  - trigger: ":dup"
+    replace: "docker-compose up"
+
+  - trigger: ":dupd"
+    replace: "docker-compose up -d"
+    
+  - trigger: ":ddown"
+    replace: "docker-compose down"
+
+  - trigger: ":dlogs"
+    replace: "docker-compose logs"
+    
+   - trigger: ":dlogsf"
+    replace: "docker-compose logs -f"
+
+  - trigger: ":dexec"
+    replace: "docker-compose exec"
+    
+  - trigger: ":drestart"
+    replace: "docker-compose restart"
